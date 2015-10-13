@@ -9,8 +9,8 @@ import sys, tty, time, termios
 from getch import getch
 
 #Set up GPIO pins
-GPIO.setmode(GPIO.BCM)
-#GPIO.setmode(GPIO.BOARD)
+#GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 
 
 #Define getch() for live input/non-blocking input
