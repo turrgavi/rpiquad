@@ -3,8 +3,8 @@ import RPi.GPIO as GPIO
 import time
 
 #Set up GPIO pins
-GPIO.setmode(GPIO.BCM)
-#GPIO.setmode(GPIO.BOARD)
+#GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 
 #Set up motors: l=left r=right b=back f=front
 #where 17 is  GPIO17 = pin 11
